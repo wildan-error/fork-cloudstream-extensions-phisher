@@ -1,5 +1,5 @@
 // use an integer for version numbers
-version = 3
+version = 3.5
 
 
 cloudstream {
@@ -7,7 +7,7 @@ cloudstream {
     // All of these properties are optional, you can safely remove them
 
     // description = "Lorem Ipsum"
-    authors = listOf("Hexated,Phisher98")
+    authors = listOf("Hexated,Phisher98,REDACTED")
 
     /**
      * Status int as the following:
@@ -16,7 +16,7 @@ cloudstream {
      * 2: Slow
      * 3: Beta only
      * */
-    status = 1 // will be 3 if unspecified
+    status = 3 // will be 3 if unspecified
     tvTypes = listOf(
         "AsianDrama",
         "TvSeries",
